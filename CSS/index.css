@@ -30,6 +30,7 @@
 }
 * {
   box-sizing: border-box;
+  display: inline-block;
 }
 html,
 body {
@@ -301,5 +302,12 @@ body {
 }
 .carousel img {
   width: 100%;
-  display: none;
+
+}
+
+.carousel-container {
+  margin: 10px auto;
+  padding: 0 5%;
+  width: 95%;
+  position: relative;
 }
